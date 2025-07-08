@@ -68,14 +68,13 @@ export default defineConfig({
             items: [
               { text: 'Colegios Profesionales', link: '/es/casos-uso/colegios' },
               { text: 'Instituciones Educativas', link: '/es/casos-uso/educacion' },
-              { text: 'Empresas Corporativas', link: '/es/casos-uso/empresas' }
             ]
           },
           {
             text: 'Documentación',
             items: [
-              { text: 'Guía de Inicio', link: '/es/docs/inicio' },
-              { text: 'API Reference', link: '/es/docs/api' }
+              { text: 'Guía de Inicio', link: '/es/devs/inicio' },
+              { text: 'API Reference', link: '/es/devs/api' }
             ]
           }
         ]
