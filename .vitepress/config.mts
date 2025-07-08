@@ -5,7 +5,7 @@ export default defineConfig({
   description: "Plataforma de Credenciales Verificables W3C",
   
   locales: {
-    root: {
+    es: {
       label: 'Español',
       lang: 'es',
       link: '/es/',
@@ -35,7 +35,6 @@ export default defineConfig({
             items: [
               { text: 'Colegios Profesionales', link: '/es/casos-uso/colegios' },
               { text: 'Instituciones Educativas', link: '/es/casos-uso/educacion' },
-              { text: 'Empresas Corporativas', link: '/es/casos-uso/empresas' }
             ]
           },
           { 
