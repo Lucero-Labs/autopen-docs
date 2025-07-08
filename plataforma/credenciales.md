@@ -10,7 +10,7 @@ Nuestra plataforma permite la emisión, gestión y verificación de credenciales
 
 Para ver la plataforma en acción, consulta nuestro video demo que muestra el proceso completo de gestión de credenciales:
 
-**[Ver Demo de Gestión de Credenciales](https://studio.youtube.com/video/td1Dy8WlUxE/edit)**
+**[Ver Demo de Gestión de Credenciales](https://youtu.be/td1Dy8WlUxE)**
 
 El video incluye:
 - Configuración de plantillas de credenciales
