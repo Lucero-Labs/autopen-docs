@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Autopen Documentation",
   description: "Plataforma de Credenciales Verificables W3C",
-  base: '/autopen-docs/',
+  // base: '/autopen-docs/',
   locales: {
     root: {
       label: 'Español',
