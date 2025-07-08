@@ -14,14 +14,68 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Inicio', link: '/es/' },
-          { text: 'Ejemplos', link: '/es/markdown-examples' }
+          { 
+            text: 'Aprende', 
+            items: [
+              { text: 'Qué son las Firmas Digitales', link: '/es/aprende/firmas-digitales' },
+              { text: 'Historia de las Firmas', link: '/es/aprende/historia' },
+              { text: 'Estándares W3C', link: '/es/aprende/w3c-estandares' }
+            ]
+          },
+          { 
+            text: 'Plataforma', 
+            items: [
+              { text: 'Características', link: '/es/plataforma/caracteristicas' },
+              { text: 'Beneficios Empresariales', link: '/es/plataforma/beneficios' },
+              { text: 'Seguridad y Cumplimiento', link: '/es/plataforma/seguridad' }
+            ]
+          },
+          { 
+            text: 'Casos de Uso', 
+            items: [
+              { text: 'Colegios Profesionales', link: '/es/casos-uso/colegios' },
+              { text: 'Instituciones Educativas', link: '/es/casos-uso/educacion' },
+              { text: 'Empresas Corporativas', link: '/es/casos-uso/empresas' }
+            ]
+          },
+          { 
+            text: 'Documentación', 
+            items: [
+              { text: 'Guía de Inicio', link: '/es/docs/inicio' },
+              { text: 'API Reference', link: '/es/docs/api' }
+            ]
+          }
         ],
         sidebar: [
           {
-            text: 'Ejemplos',
+            text: 'Aprende',
             items: [
-              { text: 'Ejemplos Markdown', link: '/es/markdown-examples' },
-              { text: 'Ejemplos API', link: '/es/api-examples' }
+              { text: 'Qué son las Firmas Digitales', link: '/es/aprende/firmas-digitales' },
+              { text: 'Historia de las Firmas', link: '/es/aprende/historia' },
+              { text: 'Estándares W3C', link: '/es/aprende/w3c-estandares' }
+            ]
+          },
+          {
+            text: 'Plataforma',
+            items: [
+              { text: 'Características', link: '/es/plataforma/caracteristicas' },
+              { text: 'Beneficios Empresariales', link: '/es/plataforma/beneficios' },
+              { text: 'Seguridad y Cumplimiento', link: '/es/plataforma/seguridad' }
+            ]
+          },
+          {
+            text: 'Casos de Uso',
+            items: [
+              { text: 'Colegios Profesionales', link: '/es/casos-uso/colegios' },
+              { text: 'Instituciones Educativas', link: '/es/casos-uso/educacion' },
+              { text: 'Empresas Corporativas', link: '/es/casos-uso/empresas' }
+            ]
+          },
+          {
+            text: 'Documentación',
+            items: [
+              { text: 'Guía de Inicio', link: '/es/docs/inicio' },
+              { text: 'API Reference', link: '/es/docs/api' }
             ]
           }
         ]
