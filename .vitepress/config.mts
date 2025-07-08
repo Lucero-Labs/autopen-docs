@@ -25,9 +25,9 @@ export default defineConfig({
           { 
             text: 'Plataforma', 
             items: [
-              { text: 'Características', link: '/es/plataforma/caracteristicas' },
-              { text: 'Beneficios Empresariales', link: '/es/plataforma/beneficios' },
-              { text: 'Seguridad y Cumplimiento', link: '/es/plataforma/seguridad' }
+              { text: 'Credenciales', link: '/es/plataforma/credenciales' },
+              { text: 'Firmador', link: '/es/plataforma/firmador' },
+              { text: 'Verificar', link: '/es/plataforma/verificar' }
             ]
           },
           { 
@@ -41,8 +41,8 @@ export default defineConfig({
           { 
             text: 'Documentación', 
             items: [
-              { text: 'Guía de Inicio', link: '/es/docs/inicio' },
-              { text: 'API Reference', link: '/es/docs/api' }
+              { text: 'Guía de Inicio', link: '/es/devs/inicio' },
+              { text: 'API', link: '/es/devs/api' }
             ]
           }
         ],
@@ -58,9 +58,9 @@ export default defineConfig({
           {
             text: 'Plataforma',
             items: [
-              { text: 'Características', link: '/es/plataforma/caracteristicas' },
-              { text: 'Beneficios Empresariales', link: '/es/plataforma/beneficios' },
-              { text: 'Seguridad y Cumplimiento', link: '/es/plataforma/seguridad' }
+              { text: 'Credenciales', link: '/es/plataforma/credenciales' },
+              { text: 'Firmador', link: '/es/plataforma/firmador' },
+              { text: 'Verificar', link: '/es/plataforma/verificar' }
             ]
           },
           {
