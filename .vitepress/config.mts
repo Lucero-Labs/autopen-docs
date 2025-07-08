@@ -87,16 +87,9 @@ export default defineConfig({
       description: 'W3C verifiable credentials platform for secure digital signing',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Examples', link: '/en/markdown-examples' }
         ],
         sidebar: [
           {
-            text: 'Examples',
-            items: [
-              { text: 'Markdown Examples', link: '/en/markdown-examples' },
-              { text: 'API Examples', link: '/en/api-examples' }
-            ]
           }
         ]
       }

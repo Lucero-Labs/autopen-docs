@@ -4,6 +4,21 @@
 
 Nuestra plataforma permite la emisión, gestión y verificación de credenciales verificables basadas en estándares W3C. La plataforma integra tecnologías de Self-Sovereign Identity (SSI) para crear un ecosistema completo de identidad digital descentralizada.
 
+## Demo
+
+### Video Demostración
+
+Para ver la plataforma en acción, consulta nuestro video demo que muestra el proceso completo de gestión de credenciales:
+
+**[Ver Demo de Gestión de Credenciales](https://studio.youtube.com/video/td1Dy8WlUxE/edit)**
+
+El video incluye:
+- Configuración de plantillas de credenciales
+- Proceso de emisión paso a paso
+- Gestión de verificaciones
+- Integración con wallets de usuarios
+
+
 ## Gestión de Credenciales
 
 ### Panel de Administración
@@ -195,20 +210,6 @@ Las plantillas definen la estructura y apariencia de las credenciales:
 - Verificación inmediata de documentos
 - Interoperabilidad entre organismos
 - Mayor seguridad anti-fraude
-
-## Demo y Documentación
-
-### Video Demostración
-
-Para ver la plataforma en acción, consulta nuestro video demo que muestra el proceso completo de gestión de credenciales:
-
-**[Ver Demo de Gestión de Credenciales](https://studio.youtube.com/video/td1Dy8WlUxE/edit)**
-
-El video incluye:
-- Configuración de plantillas de credenciales
-- Proceso de emisión paso a paso
-- Gestión de verificaciones
-- Integración con wallets de usuarios
 
 ## Beneficios de la Plataforma
 

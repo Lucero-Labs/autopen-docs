@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Autopen"
   text: "Documentación"
-  tagline: Who is on the other side ?
+  tagline: ¿Quién está del otro lado?
   actions:
     - theme: brand
       text:  Aprende
       link: es/aprende
     - theme: alt
       text: Pruebalo
-      link: es/api-examples
+      link: https://autopen.lucerolabs.xyz/
 
 features:
   - title: Credenciales Verificables W3C
