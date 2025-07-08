@@ -1,0 +1,53 @@
+:root {
+  /* Autopen Brand Colors - Orange Primary */
+  --vp-c-brand-1: #FF6B47;  /* Main orange from your buttons */
+  --vp-c-brand-2: #FF8A6B;  /* Lighter orange for hover */
+  --vp-c-brand-3: #E55A3C;  /* Darker orange for active */
+  --vp-c-brand-soft: rgba(255, 107, 71, 0.1);  /* Soft orange background */
+
+  /* Secondary Teal Colors */
+  --vp-c-teal-1: #1E4A4A;   /* Dark teal from API interface */
+  --vp-c-teal-2: #2A5F5F;   /* Medium teal */
+  --vp-c-teal-3: #367070;   /* Light teal */
+  --vp-c-teal-soft: rgba(30, 74, 74, 0.1);
+
+  /* Background Colors - Autopen Cream */
+  --vp-c-bg: #F8F6F0;       /* Main cream background */
+  --vp-c-bg-alt: #FFFFFF;   /* White alternative */
+  --vp-c-bg-soft: #F0EDE6;  /* Slightly darker cream */
+}
+:root {
+  --vp-c-text-1: #1E4A4A;  /* Dark teal for main text */
+  --vp-c-text-2: #2A5F5F;  /* Medium teal for secondary text */
+  --vp-c-text-3: #367070;  /* Light teal for subtle text */
+}
+
+:root {
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #FF6B47 30%,
+    #1E4A4A
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #FF6B47 50%,
+    #1E4A4A 50%
+  );
+}
+
+/* Dark theme colors */
+.dark {
+  --vp-c-bg: #1a1a1a;           /* Dark background */
+  --vp-c-bg-alt: #262626;       /* Dark alternative bg */
+  --vp-c-bg-soft: #2d2d2d;      /* Dark soft bg */
+  
+  --vp-c-text-1: #ffffff;       /* White text for dark mode */
+  --vp-c-text-2: #cccccc;       /* Light gray text */
+  --vp-c-text-3: #999999;       /* Medium gray text */
+  
+  /* Keep your brand colors the same */
+  --vp-c-brand-1: #FF6B47;
+  --vp-c-brand-2: #FF8A6B;
+  --vp-c-brand-3: #E55A3C;
+}
