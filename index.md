@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text:  Aprende
-      link: es/aprende
+      link: /plataforma/credenciales
     - theme: alt
       text: Pruebalo
       link: https://autopen.lucerolabs.xyz/

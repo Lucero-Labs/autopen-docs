@@ -8,11 +8,8 @@ hero:
   tagline: Who is on the other side ?
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: es/markdown-examples
-    - theme: alt
-      text: API Examples
-      link: es/api-examples
+      text: Demo
+      link: https://autopen.lucerolabs.xyz/ 
 
 features:
   - title: W3C Verifiable Credentials
