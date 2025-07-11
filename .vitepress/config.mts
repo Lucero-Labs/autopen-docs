@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.svg' }]
+  ],
   title: "Autopen Documentation",
   description: "Plataforma de Credenciales Verificables W3C",
   // base: '/autopen-docs/',

@@ -5,8 +5,6 @@
 
 *2 minutes that show why change your way of handling credentials.*
 
----
-
 ## What You Can Do?
 
 ### 🎯 **Create Generic Credentials**
@@ -21,15 +19,11 @@ Did someone lose their professional license? Did a membership expire? **You revo
 ### 🔍 **Verify Without Intermediaries**
 Anyone can verify credentials instantly. **They don't need to call you or ask you anything.**
 
----
-
 ## Who Is This For?
 
 **🎓 Universities:** Instantly verifiable diplomas
 **🏢 Companies:** Employment certificates that cannot be forged
 **🔧 Certifiers:** Trackable professional competencies
-
----
 
 ## Why It Works
 
@@ -37,8 +31,6 @@ Anyone can verify credentials instantly. **They don't need to call you or ask yo
 **Global standards:** W3C compatible - works worldwide
 **Total security:** Impossible to hack, forge, or lose
 **Total control:** You decide who can verify what
-
----
 
 ## The Real Change
 
