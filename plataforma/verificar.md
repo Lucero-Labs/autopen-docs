@@ -1,199 +1,92 @@
-# Plataforma de Verificación
+# Verificador: Automatizá Decisiones en Tiempo Real
 
-## Introducción al Sistema de Verificación
+## El Verificador que Actúa
 
-Nuestra plataforma de verificación proporciona herramientas completas para validar la autenticidad de documentos firmados digitalmente y credenciales verificables. El sistema combina verificación criptográfica avanzada con una interfaz intuitiva que permite a cualquier usuario confirmar la validez de documentos digitales.
+**No solo verificamos credenciales. Automatizamos decisiones.**
 
-## PDF Signature Validator
+Podés construir verificadores para **cualquier credencial de cualquier emisor** y configurar qué pasa cuando alguien las presenta. ¿Descuento para estudiantes universitarios? ¿Acceso exclusivo para profesionales certificados? **El verificador actúa automáticamente.**
 
-### Verificador Integral de Documentos
+## Qué Podés Hacer
 
-**Funcionalidades principales:**
+### 🎯 **Verificadores Personalizados**
+Creás verificadores para las credenciales que te importan. **No solo las tuyas - cualquiera.** Graduados de cierta universidad, miembros de determinado colegio profesional, ciudadanos de países específicos.
 
-**Visualizador PDF integrado:**
-- Renderizado completo del documento original
-- Navegación por páginas fluida
-- Zoom y herramientas de visualización
-- Controles de descarga e impresión
+### ⚡ **Webhooks Automáticos**
+Configurás qué pasa cuando la verificación es exitosa. **Descuentos automáticos, accesos habilitados, notificaciones enviadas.** Todo sin intervención manual.
 
-**Panel de verificación en tiempo real:**
-- Análisis automático al cargar el documento
-- Verificación criptográfica instantánea
-- Validación de cadena de certificados
-- Comprobación de estado de revocación
+### 🔍 **Verificadores Genéricos**
+Construimos verificadores reutilizables que podés configurar para tus necesidades específicas. **Plug and play para casos comunes.**
 
-### Análisis de Credenciales Verificables
+### 📊 **Panel Transparente**
+Ves el estado de todas las verificaciones en tiempo real. **Quién verificó qué, cuándo, y qué acciones se dispararon.**
 
-**Información detallada de credenciales:**
+## Casos Reales
 
-**Credential Information:**
-- **ID único:** Identificador criptográfico de la credencial
-- **Formato:** Tipo de credencial verificable (JSON-LD, JWT, etc.)
-- **Emisor:** Entidad que emitió la credencial original
-- **Vigencia:** Período de validez de la credencial
+### 🎓 **Descuentos Estudiantiles**
+- Verificador para "Estudiante Universidad X"
+- Webhook: Aplicar 20% descuento automáticamente
+- **Resultado:** Cliente presenta credencial estudiantil → descuento aplicado al instante
 
-**Subject Information:**
-- **Name:** Nombre completo del titular de la credencial
-- **ID Number:** Número de identificación oficial
-- **Username:** Identificador de usuario en el sistema
-- **Additional attributes:** Atributos específicos según tipo de credencial
+### 🏥 **Acceso Profesional**
+- Verificador para "Médico Habilitado"
+- Webhook: Habilitar acceso a área restringida
+- **Resultado:** Médico escanea QR → acceso automático sin personal de seguridad
 
-**Opciones avanzadas:**
-- **View Raw Credential Data:** Acceso al JSON completo de la credencial
-- **Verification trail:** Rastro completo de verificación
-- **Cryptographic proofs:** Pruebas criptográficas detalladas
+### 🌍 **Ofertas Regionales**
+- Verificador para "Residente Buenos Aires"
+- Webhook: Mostrar ofertas locales específicas
+- **Resultado:** Usuario local → ve ofertas que otros no ven
 
-### Análisis de Certificados
+### 🎪 **Membresías Exclusivas**
+- Verificador para "Miembro Club X"
+- Webhook: Acceso a contenido premium
+- **Resultado:** Miembro del club → acceso inmediato a beneficios
 
-**Certificate Information detallada:**
+## Cómo Funciona
 
-**Información del emisor:**
-- **Issuer:** Autoridad Certificante que emitió el certificado
-- **Certificate Authority:** Detalles de la CA emisora
-- **Certificate chain:** Cadena completa de certificación
-- **Trust anchor:** Raíz de confianza verificada
+### 📱 **Usuario Presenta Credencial**
+Escanea QR o accede al verificador desde su wallet.
 
-**Información del sujeto:**
-- **Subject:** Titular del certificado
-- **Organization:** Organización asociada
-- **Common Name:** Nombre común del certificado
-- **Serial Number:** Número de serie único
+### ✅ **Verificación Automática**
+El sistema confirma que la credencial es válida y cumple criterios.
 
-**Validez temporal:**
-- **Valid From:** Fecha de inicio de vigencia
-- **Valid Until:** Fecha de expiración
-- **Current status:** Estado actual del certificado
-- **Revocation status:** Verificación de no revocación
+### 🚀 **Webhook Disparado**
+Se ejecuta automáticamente la acción configurada.
 
-## Flujo de Verificación Completo
+### 📈 **Registro Completo**
+Todo queda documentado en el panel de control.
 
-### Proceso de Verificación Paso a Paso
+## Panel de Control
 
-**1. Carga del documento:**
-- El verificador sube el PDF firmado a la plataforma
-- El sistema detecta automáticamente las firmas digitales
-- Se inicia el proceso de análisis criptográfico
+### 📊 **Estado en Tiempo Real**
+- Verificaciones exitosas/fallidas
+- Acciones disparadas
+- Credenciales más verificadas
+- Horarios de mayor actividad
 
-**2. Análisis de credenciales:**
-- Extracción de credenciales verificables embebidas
-- Verificación de la cadena de emisión
-- Validación contra el registro del emisor
-- Confirmación de vigencia temporal
+### 🔧 **Configuración Simple**
+- Qué credenciales aceptar
+- Qué webhooks disparar
+- Qué información capturar
+- Cuándo notificar
 
-**3. Verificación de firma:**
-- Validación criptográfica de la firma digital
-- Verificación de integridad del documento
-- Confirmación de no alteración post-firma
-- Validación de timestamp certificado
+### 📈 **Analytics Útiles**
+- Demografía de usuarios que verifican
+- Efectividad de ofertas/accesos
+- Patrones de uso
+- ROI de verificaciones
 
-**4. Reporte de verificación:**
-- Estado general: VÁLIDO/INVÁLIDO/CON ADVERTENCIAS
-- Detalles del firmante y sus credenciales
-- Información de la entidad emisora
-- Metadatos completos de la firma
+## El Cambio
 
-### Interpretación de Resultados
+**Antes:**
+- "¿Tenés descuento estudiantil?"
+- "Mostrá tu credencial universitaria"
+- Verificación manual, lenta, propensa a errores
 
-**Estados de verificación:**
+**Ahora:**
+- Verificación automática
+- Decisión instantánea
+- **Cero intervención humana**
 
-**✅ VÁLIDO:**
-- Firma criptográficamente correcta
-- Credencial vigente y no revocada
-- Emisor reconocido y confiable
-- Documento íntegro sin alteraciones
-
-**⚠️ CON ADVERTENCIAS:**
-- Firma válida pero credencial próxima a vencer
-- Emisor válido pero con cambios recientes
-- Documento íntegro pero con firmas múltiples
-- Verificación parcial por limitaciones técnicas
-
-**❌ INVÁLIDO:**
-- Firma criptográficamente incorrecta
-- Credencial vencida o revocada
-- Emisor no reconocido o no confiable
-- Documento alterado después de la firma
-
-## Ventajas del Sistema de Verificación
-
-### Para Verificadores (Clientes/Empleadores)
-
-**Confianza total:**
-- Verificación instantánea 24/7
-- Eliminación de fraude de credenciales
-- Confirmación automática de habilitaciones
-- Trazabilidad completa del proceso
-
-**Eficiencia operativa:**
-- Sin necesidad de contactar instituciones
-- Verificación masiva de documentos
-- Integración con sistemas existentes
-- Reducción de costos administrativos
-
-### Para Profesionales (Portadores)
-
-**Credibilidad mejorada:**
-- Demostración inmediata de competencias
-- Diferenciación competitiva clara
-- Eliminación de procesos burocráticos
-- Portabilidad internacional de credenciales
-
-**Control y privacidad:**
-- Decisión sobre qué compartir
-- Trazabilidad de verificaciones realizadas
-- Protección de datos personales
-- Revocación de acceso cuando sea necesario
-
-### Para Instituciones Emisoras
-
-**Control efectivo:**
-- Monitoreo del uso de credenciales
-- Capacidad de revocación inmediata
-- Prevención de uso indebido
-- Estadísticas de verificación en tiempo real
-
-**Reputación institucional:**
-- Asociación con tecnología avanzada
-- Transparencia en certificaciones
-- Reducción de credenciales falsificadas
-- Cumplimiento regulatorio automatizado
-
-## Tecnología Subyacente
-
-### Arquitectura de Verificación
-
-**Componentes técnicos:**
-
-**Motor de verificación:**
-- Validación criptográfica multi-algoritmo
-- Parser de múltiples formatos de credenciales
-- Verificador de cadenas de confianza
-- Validator de políticas de verificación
-
-**Base de datos de emisores:**
-- Registro de instituciones confiables
-- Metadatos de autoridades certificantes
-- Estados de revocación en tiempo real
-- Políticas de verificación específicas
-
-**API de verificación:**
-- Endpoints RESTful para integración
-- SDKs para diferentes plataformas
-- Webhooks para notificaciones
-- Rate limiting y seguridad avanzada
-
-### Estándares y Compliance
-
-**Estándares implementados:**
-- **W3C Verifiable Credentials:** Formato estándar de credenciales
-- **DID (Decentralized Identifiers):** Identificadores descentralizados
-- **JSON-LD:** Datos enlazados para interoperabilidad
-- **JWT/JWS:** Tokens web para firmas compactas
-
-**Compliance regulatorio:**
-- **eIDAS (EU):** Regulation on electronic identification
-- **Ley 25.506 (Argentina):** Ley de Firma Digital
-- **NIST Guidelines:** Estándares de criptografía
-- **ISO 27001:** Gestión de seguridad de información
-
-La plataforma de verificación constituye el componente final del ecosistema de identidad digital, proporcionando la confianza necesaria para que profesionales, instituciones y ciudadanos puedan participar plenamente en la economía digital con la certeza de que cada documento, cada credencial y cada firma puede ser verificada de manera instantánea, segura e inequívoca.
+---
+**No verificamos credenciales. Automatizamos la confianza.**

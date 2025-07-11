@@ -1,279 +1,74 @@
-# Plataforma de Firma Digital
+# Firmador Digital: Más que Una Firma
 
-## Introducción al Firmador Digital
+## El Firmador que Conoce Tu Historia
 
-Nuestra plataforma de firma digital permite a los usuarios firmar documentos PDF utilizando credenciales verificables como método de autenticación. Esta innovadora solución combina la seguridad de las firmas digitales tradicionales con la flexibilidad y privacidad de las credenciales verificables.
+**Cada firma cuenta una historia.** No solo quién sos, sino **qué te autoriza a tomar esa decisión en ese momento.**
 
-## Características Principales
+Una firma sin contexto es solo un nombre en un papel. Una firma con contexto es **una declaración completa de autoridad y responsabilidad.**
 
-### Integración con Credenciales Verificables
+**Nuestro firmador incluye el contexto relevante en cada firma.**
 
-**Autenticación mediante credenciales:**
-- Los usuarios pueden utilizar credenciales almacenadas en sus wallets digitales
-- Verificación automática de la validez de las credenciales
-- Soporte para múltiples tipos de credenciales institucionales
-- Autenticación descentralizada sin dependencia de autoridades centrales
+Cuando un médico firma una receta, no importa solo que sea él - importa que **sea médico habilitado.** El documento no solo dice "Juan Pérez firmó", dice **"Dr. Juan Pérez, Cardiólogo, Matrícula 12345, vigente hasta 2025, firmó esta receta."**
 
-### Proceso de Firma Simplificado
+---
 
-**Flujo de trabajo optimizado:**
+## Cómo Funciona
 
-1. **Bienvenida personalizada:** El sistema saluda al usuario identificado por su credencial
-2. **Gestión de identidad digital:** Opción para crear o gestionar firma digital tradicional
-3. **Selección de documento:** Carga de archivos PDF (máximo 10MB)
-4. **Autenticación biométrica:** Código QR para firma segura desde dispositivo móvil
-5. **Firma híbrida:** Combinación de credencial verificable + firma digital
+### 📄 **Subís tu PDF**
+Cualquier documento: contrato, receta, plano, autorización.
 
-### Interfaz de Usuario Intuitiva
+### 🎫 **Presentás tu Credencial** 
+Se genera una invitación. Presentás tu credencial verificable - médico, abogado, padre, lo que corresponda.
 
-**Experiencia de usuario optimizada:**
+### ✍️ **Firma Instantánea**
+Generamos un certificado P12 único para vos, **que solo funciona si tu credencial es válida.** Firmás y se refleja al instante.
 
-**Dashboard principal:**
-- Saludo personalizado con identificación del usuario
-- Acceso rápido a funciones principales
-- Estado de credenciales y certificados digitales
+### 🔍 **Verificación Completa**
+Cualquiera puede ver el PDF firmado con **toda tu información relevante verificable.** No solo que firmaste, sino **qué te autoriza a hacerlo.**
 
-**Opciones de firma:**
-- **Crear firma digital tradicional:** Para usuarios que necesiten certificados PKI
-- **Firmar con credenciales:** Uso directo de credenciales verificables
-- **Firma híbrida:** Combinación de ambos métodos
+---
 
-**Gestión de documentos:**
-- Carga por arrastrar y soltar
-- Previsualización de documentos
-- Selección de archivo con validación automática
-- Opción de usar documento de prueba predefinido
+## Lo que Hace la Diferencia
 
-## Tecnología de Firma Avanzada
+### 🧬 **Contexto Completo**
+- **Médico → Receta:** Especialidad, matrícula, vigencia
+- **Arquitecto → Plano:** Habilitación, registro profesional  
+- **Padre → Autorización:** Relación familiar verificada
+- **Abogado → Poder:** Matrícula, especialización
 
-### Códigos QR para Firma Móvil
+### 🔒 **Certificado Condicional**
+Tu certificado de firma **solo se activa si tu credencial es válida.** Sin credencial válida, no hay firma posible.
 
-**Proceso de autenticación móvil:**
+### 👥 **Firmas Colaborativas**
+Varios pueden firmar el mismo documento. **Cada uno con su contexto completo.**
 
-1. **Generación de QR:** El sistema crea un código único para cada sesión de firma
-2. **Escaneado seguro:** El usuario escanea con su aplicación wallet
-3. **Verificación biométrica:** Autenticación en el dispositivo móvil
-4. **Firma criptográfica:** Generación de firma usando credenciales verificables
-5. **Confirmación:** Verificación del proceso de firma completado
+### 📱 **Verificación Compartible**
+Vista pública donde cualquiera ve el documento y **toda la información relevante de cada firmante.**
 
-**Ventajas del QR:**
-- **Seguridad adicional:** Factor de autenticación múltiple
-- **Comodidad:** Firma desde cualquier dispositivo
-- **Velocidad:** Proceso en segundos
-- **Trazabilidad:** Registro completo de la operación
+---
 
-### Integración WACI (Wallet and Credential Interactions)
+## El Cambio
 
-**Protocolo estándar:**
-- Compatible con especificaciones W3C
-- Interoperabilidad con múltiples wallets
-- Comunicación segura peer-to-peer
-- Soporte para diferentes tipos de credenciales
+**Firma tradicional:**
+- "Lo firmó Juan Pérez"
+- ¿Es realmente médico?
+- ¿Está habilitado?
+- ¿Cuándo vence su matrícula?
 
-**Funcionalidades WACI:**
-- **Credential presentation:** Presentación selectiva de atributos
-- **Proof verification:** Verificación criptográfica de pruebas
-- **Consent management:** Gestión granular de consentimientos
-- **Session management:** Control de sesiones de firma
+**Firma con Autopen:**
+- "Lo firmó Dr. Juan Pérez, Cardiólogo, Matrícula 12345, vigente hasta 2025"
+- **Verificable al instante, desde cualquier lugar**
 
-## Gestión de Documentos Firmados
+---
 
-### Almacenamiento y Organización
+## Para Qué Sirve
 
-**Sistema de gestión completo:**
+**🏥 Profesionales de la salud:** Recetas con especialidad y matrícula
+**🏗️ Técnicos habilitados:** Planos con registro profesional verificable
+**⚖️ Profesionales del derecho:** Documentos con matrícula vigente
+**👨‍👩‍👧‍👦 Padres:** Autorizaciones con vínculo familiar verificado
+**🎓 Graduados:** Documentos con título y casa de estudios
 
-**Panel "Mis documentos firmados":**
-- Lista completa de documentos firmados
-- Información detallada de cada firma
-- Estado de verificación de documentos
-- Opciones de compartir y descargar
+---
 
-**Columnas de información:**
-- **Document ID:** Identificador único de cada documento
-- **Signed Date:** Fecha y hora exacta de la firma
-- **Status:** Estado actual (completado, pendiente, verificado)
-- **Verified:** Confirmación de verificación exitosa
-- **Actions:** Opciones de gestión y compartir
-
-### Seguridad y Autenticación Avanzada
-
-**Passkey Authentication:**
-- Implementación de autenticación sin contraseñas
-- Uso de biometría del dispositivo
-- Seguridad basada en estándares FIDO2/WebAuthn
-- Experiencia de usuario fluida y segura
-
-**Registro de Passkeys:**
-- Configuración automática durante el primer uso
-- Sincronización entre dispositivos
-- Respaldo seguro en la nube
-- Recuperación simplificada
-
-## Características Técnicas
-
-### Tipos de Firma Soportados
-
-**Firma con Credenciales Verificables:**
-- Utiliza credenciales como método de autenticación
-- Firma criptográfica basada en claves de la credencial
-- Verificación descentralizada
-- Cumplimiento con estándares W3C
-
-**Firma Digital Tradicional:**
-- Certificados PKI estándar
-- Cumplimiento con normativas locales (Ley 25.506)
-- Autoridades Certificantes reconocidas
-- Dispositivos criptográficos seguros
-
-**Firma Híbrida:**
-- Combinación de ambos métodos
-- Mayor nivel de seguridad y confianza
-- Compatibilidad ampliada
-- Flexibilidad de verificación
-
-### Formatos y Compatibilidad
-
-**Formatos de documento:**
-- **PDF:** Soporte completo para documentos PDF
-- **Tamaño máximo:** 10MB por documento
-- **Metadatos:** Preservación de información original
-- **Multipágina:** Soporte para documentos extensos
-
-**Compatibilidad de firma:**
-- **Adobe Reader:** Visualización correcta de firmas
-- **Viewers estándar:** Compatibilidad con lectores PDF comunes
-- **Aplicaciones móviles:** Verificación desde dispositivos móviles
-- **Sistemas web:** Integración con plataformas online
-
-### Verificación de Documentos
-
-**Información de verificación completa:**
-
-**Detalles de credencial:**
-- **ID único:** Identificador de la credencial utilizada
-- **Subject Information:** Datos del firmante
-- **Validity:** Estado de vigencia de la credencial
-
-**Información de firma:**
-- **Valid Status:** Confirmación de validez
-- **Signer:** Identificación del firmante
-- **Reason:** Motivo de la firma
-- **Location:** Ubicación de la firma
-- **Signing Time:** Timestamp exacto
-- **Signature Type:** Tipo de firma aplicada
-
-**Información del certificado:**
-- **Issuer:** Emisor de la credencial/certificado
-- **Subject:** Sujeto del certificado
-- **Valid From/Until:** Período de validez
-- **Certificate chain:** Cadena de confianza completa
-
-## Casos de Uso
-
-### Sector Educativo
-
-**Documentos académicos:**
-- Contratos de trabajo docente
-- Acuerdos de investigación
-- Documentos administrativos
-- Certificaciones internas
-
-**Ventajas:**
-- Verificación automática de credenciales académicas
-- Trazabilidad completa de firmas
-- Reducción de procesos burocráticos
-- Seguridad mejorada en documentos sensibles
-
-### Sector Corporativo
-
-**Documentos empresariales:**
-- Contratos comerciales
-- Acuerdos de confidencialidad
-- Políticas internas
-- Documentos de recursos humanos
-
-**Beneficios:**
-- Autenticación basada en credenciales corporativas
-- Workflow de aprobación automatizado
-- Auditoría completa de firmas
-- Integración con sistemas empresariales
-
-### Sector Legal
-
-**Documentos jurídicos:**
-- Contratos legales
-- Declaraciones juradas
-- Poderes y autorizaciones
-- Documentos notariales
-
-**Características especiales:**
-- Cumplimiento con normativas legales
-- Valor probatorio equivalente a firma manuscrita
-- Timestamps certificados
-- Cadena de custodia digital
-
-## Ventajas Competitivas
-
-### Innovación Tecnológica
-
-**Primera plataforma que combina:**
-- Credenciales verificables W3C
-- Firma digital tradicional PKI
-- Autenticación biométrica móvil
-- Gestión descentralizada de identidad
-
-### Experiencia de Usuario Superior
-
-**Proceso simplificado:**
-- Reducción de pasos de autenticación
-- Interfaz intuitiva y moderna
-- Firma desde cualquier dispositivo
-- Gestión centralizada de documentos
-
-### Seguridad Avanzada
-
-**Múltiples capas de protección:**
-- Autenticación multifactor
-- Cifrado end-to-end
-- Verificación criptográfica
-- Trazabilidad inmutable
-
-### Interoperabilidad
-
-**Compatibilidad amplia:**
-- Estándares internacionales
-- Múltiples wallets digitales
-- Diferentes tipos de credenciales
-- Sistemas legacy existentes
-
-## Futuro y Roadmap
-
-### Desarrollos Planificados
-
-**Próximas funcionalidades:**
-- **Firma en lote:** Múltiples documentos simultáneamente
-- **API completa:** Integración programática
-- **Firmas colaborativas:** Múltiples firmantes por documento
-- **Plantillas inteligentes:** Ubicación automática de firmas
-
-**Mejoras de experiencia:**
-- **Firma offline:** Capacidad de firma sin conexión
-- **Notificaciones push:** Alertas en tiempo real
-- **Analytics avanzado:** Métricas detalladas de uso
-- **Personalización:** Temas y branding customizable
-
-### Cumplimiento Regulatorio
-
-**Estándares actuales:**
-- Ley 25.506 de Firma Digital (Argentina)
-- eIDAS (Unión Europea)
-- ESIGN Act (Estados Unidos)
-- Estándares W3C e ISO
-
-**Preparación futura:**
-- Regulaciones de identidad digital
-- Normativas de credenciales verificables
-- Estándares post-cuánticos
-- Compliance internacional automatizado
-
-La plataforma de firma digital representa la evolución natural de los sistemas de autenticación, combinando la robustez de la infraestructura PKI tradicional con la innovación y flexibilidad de las credenciales verificables, creando una solución única en el mercado que prepara a las organizaciones para el futuro de la identidad digital.
+**No es solo una firma. Es tu historia convertida en prueba digital.**

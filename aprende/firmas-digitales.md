@@ -1,116 +1,59 @@
-# Firmas
+# Firmas Digitales: Tu Voluntad Hecha Prueba
 
-## ¿Qué son las Firmas Digitales?
+## ¿Qué es Realmente una Firma Digital?
 
-Las firmas digitales son un mecanismo criptográfico que permite garantizar la autenticidad, integridad y no repudio de documentos electrónicos. Utilizan certificados digitales emitidos por Autoridades Certificantes licenciadas para vincular de manera inequívoca a una persona o entidad con un documento digital.
+Una firma digital es **la versión inquebrantable de tu firma manuscrita.** Cuando firmas un papel, confías en que reconozcan tu letra. Cuando firmas digitalmente, **la matemática garantiza que eres tú.**
 
-## Las Firmas como Manifestación de la Voluntad
+Es tu forma de decir "acepto, me comprometo, respondo por esto" con prueba criptográfica incluida.
 
-### Fundamento Jurídico
+## Firma Digital vs. Firma Electrónica
 
-Las firmas digitales constituyen una manifestación inequívoca de la voluntad del firmante. En el contexto legal argentino:
+**Firma electrónica:** Cualquier garabato digital - desde tu dedo en una tablet hasta un PIN.
+*Valor legal: "Depende"*
 
-- **Expresión de consentimiento:** La firma digital representa la voluntad deliberada de aprobar, autorizar o comprometerse con el contenido del documento
-- **Vinculación jurídica:** Al firmar digitalmente, la persona asume responsabilidad legal sobre el contenido firmado
-- **Intención declarativa:** La firma expresa la intención del firmante de obligarse según los términos del documento
+**Firma digital:** Certificado emitido por autoridad licenciada + criptografía + verificación biométrica.
+*Valor legal: Igual a tu firma manuscrita*
 
-### Requisitos de Validez
+**La diferencia:** Una es una imagen, la otra es una prueba matemática.
 
-Para que una firma digital sea válida como manifestación de voluntad:
+## Por Qué es Indubitable
 
-1. **Identidad verificada:** El firmante debe estar debidamente identificado ante la Autoridad de Registro
-2. **Control exclusivo:** Solo el titular debe tener acceso a su clave privada
-3. **Intención consciente:** El acto de firmar debe ser deliberado y no accidental
-4. **Capacidad legal:** El firmante debe tener capacidad jurídica para obligarse
+### 🔐 **Autenticidad Garantizada**
+No es "parece que firmó Juan." Es **"Juan firmó, lo prueba la matemática."**
 
-## Diferencia entre Firma Digital y Firma Electrónica
+### 🛡️ **Integridad Total** 
+Cambias una coma del documento después de firmado y **la firma se invalida automáticamente.**
 
-### Según la Ley 25.506
+### ⏰ **Momento Exacto**
+Sello de tiempo que certifica cuándo firmaste. **Ni un segundo de diferencia.**
 
-La legislación argentina establece una distinción fundamental entre estos dos conceptos:
+### 🚫 **No Repudio**
+No puedes decir "yo no firmé eso." **Tu certificado digital te delata.**
 
-**Firma Digital:**
-- Utiliza un certificado digital emitido por un Certificador Licenciado
-- Emplea dispositivos criptográficos que cumplen con estándar FIPS 140-2 nivel 3
-- Requiere un proceso de verificación de identidad presencial ante un Oficial de Registro
-- Tiene pleno valor legal y probatorio equivalente a la firma manuscrita
-- Está regulada específicamente por la Ley 25.506
+## Cómo Funciona (Simple)
 
-**Firma Electrónica:**
-- Es cualquier método o símbolo electrónico utilizado por una persona para firmar
-- No requiere certificados digitales específicos
-- Puede incluir desde un PIN hasta una imagen digitalizada de la firma
-- Su valor probatorio debe ser evaluado caso por caso
-- Tiene menor peso legal que la firma digital
+1. **Te verifican biométricamente** - Reconocimiento facial + huella vs. Registro Nacional
+2. **Recibes tu certificado digital** - Tu identidad matemática única
+3. **Firmas el documento** - Tu clave privada + el documento = firma única
+4. **Cualquiera puede verificar** - Instantáneamente, desde cualquier lugar
 
-## Conceptos sobre Indubilidad de la Firma
+## Tus Responsabilidades
 
-### Características que garantizan la indubilidad:
+**Básicamente:** No compartas tu clave privada. 
 
-**Autenticidad:**
-- La firma digital permite verificar de manera fehaciente que el documento fue firmado por quien dice haberlo firmado
-- Utiliza criptografía de clave pública para crear una vinculación única entre el firmante y el documento
+Es como la llave de tu casa - **si la prestas, es tu problema.**
 
-**Integridad:**
-- Cualquier modificación del documento después de la firma la invalida automáticamente
-- Los algoritmos criptográficos detectan alteraciones incluso mínimas
+- Mantenela secreta
+- Usa dispositivos seguros 
+- Si se compromete, revócala inmediatamente
 
-**No repudio:**
-- El firmante no puede negar posteriormente haber firmado el documento
-- El certificado digital y la infraestructura de PKI proporcionan evidencia irrefutable
+## Marco Legal
 
-**Vinculación temporal:**
-- Los sellos de tiempo (timestamp) certifican el momento exacto de la firma
-- Esto es crucial para determinar la validez temporal de los certificados
+**Ley 25.506:** Tu firma digital vale igual que tu firma manuscrita.
+**Período.**
 
-### Mecanismos técnicos de indubilidad:
+No hay "depende del caso" ni "evaluación judicial." **Vale igual, punto.**
 
-1. **Verificación biométrica:** Confrontación mediante reconocimiento facial y huella dactilar con el Registro Nacional de las Personas
-2. **Dispositivos seguros:** Uso de tokens criptográficos que cumplen estándares FIPS 140-2
-3. **Cadena de confianza:** Infraestructura de Autoridades Certificantes auditadas y licenciadas
-4. **Algoritmos robustos:** Uso de SHA-256 y RSA de 2048 bits mínimo
+---
 
-## Para qué sirven las Firmas Digitales
-
-### Usos principales:
-
-**Sector Público:**
-- Trámites administrativos electrónicos
-- Licitaciones y contrataciones públicas
-- Presentación de declaraciones juradas
-- Expedientes electrónicos
-- Comunicaciones oficiales entre organismos
-
-**Sector Privado:**
-- Contratos comerciales
-- Facturas electrónicas
-- Documentos societarios
-- Operaciones bancarias y financieras
-- Comunicaciones corporativas
-
-**Beneficios operativos:**
-
-1. **Reducción de costos:** Eliminación de papel, impresión y traslados físicos
-2. **Agilización de procesos:** Firma y envío instantáneo de documentos
-3. **Seguridad jurídica:** Mayor certeza legal que la firma manuscrita
-4. **Trazabilidad:** Registro completo de la cadena de firma y verificación
-5. **Sustentabilidad:** Reducción significativa del impacto ambiental
-
-## Obligaciones del Suscriptor
-
-Según la Ley 25.506, el suscriptor debe:
-
-1. **Mantener control exclusivo** de sus datos de creación de firma digital
-2. **No compartir** ni permitir la divulgación de su clave privada
-3. **Utilizar dispositivos técnicamente confiables** para la creación de firmas
-4. **Solicitar revocación** ante cualquier compromiso de seguridad
-5. **Informar cambios** en los datos contenidos en el certificado
-
-## Marco Normativo
-
-- **Ley 25.506:** Ley de Firma Digital
-- **Decreto 182/2019:** Reglamentación de la Ley de Firma Digital
-- **Resolución 946/2021:** Especificaciones técnicas y procedimientos
-- **Estándares internacionales:** FIPS 140-2, X.509, PKI
-
-Las firmas digitales representan un avance fundamental en la digitalización de procesos, proporcionando un mecanismo seguro, eficiente y legalmente válido para la manifestación de voluntad en el entorno digital.
+**En resumen:** La firma digital es tu voluntad convertida en prueba matemática inquebrantable. **Es lo más cercano a la certeza absoluta que existe en el mundo digital.**
