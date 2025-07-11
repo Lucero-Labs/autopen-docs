@@ -42,8 +42,7 @@ export default defineConfig({
           { 
             text: 'Devs', 
             items: [
-              { text: 'Guía de Inicio', link: '/devs/inicio' },
-              { text: 'API', link: '/devs/api' }
+              { text: 'API Reference', link: '/devs/api' }
             ]
           }
         ],
@@ -74,7 +73,6 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'Guía de Inicio', link: '/devs/inicio' },
               { text: 'API Reference', link: '/devs/api' }
             ]
           }
@@ -115,7 +113,6 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'Getting Started Guide', link: '/en/devs/inicio' },
               { text: 'API Reference', link: '/en/devs/api' }
             ]
           }
@@ -147,7 +144,6 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'Getting Started Guide', link: '/en/devs/inicio' },
               { text: 'API Reference', link: '/en/devs/api' }
             ]
           }
