@@ -10,8 +10,6 @@ Una firma sin contexto es solo un nombre en un papel. Una firma con contexto es 
 
 Cuando un médico firma una receta, no importa solo que sea él - importa que **sea médico habilitado.** El documento no solo dice "Juan Pérez firmó", dice **"Dr. Juan Pérez, Cardiólogo, Matrícula 12345, vigente hasta 2025, firmó esta receta."**
 
----
-
 ## Cómo Funciona
 
 ### 📄 **Subís tu PDF**
@@ -25,8 +23,6 @@ Generamos un certificado P12 único para vos, **que solo funciona si tu credenci
 
 ### 🔍 **Verificación Completa**
 Cualquiera puede ver el PDF firmado con **toda tu información relevante verificable.** No solo que firmaste, sino **qué te autoriza a hacerlo.**
-
----
 
 ## Lo que Hace la Diferencia
 
@@ -45,8 +41,6 @@ Varios pueden firmar el mismo documento. **Cada uno con su contexto completo.**
 ### 📱 **Verificación Compartible**
 Vista pública donde cualquiera ve el documento y **toda la información relevante de cada firmante.**
 
----
-
 ## El Cambio
 
 **Firma tradicional:**
@@ -59,8 +53,6 @@ Vista pública donde cualquiera ve el documento y **toda la información relevan
 - "Lo firmó Dr. Juan Pérez, Cardiólogo, Matrícula 12345, vigente hasta 2025"
 - **Verificable al instante, desde cualquier lugar**
 
----
-
 ## Para Qué Sirve
 
 **🏥 Profesionales de la salud:** Recetas con especialidad y matrícula
@@ -68,7 +60,5 @@ Vista pública donde cualquiera ve el documento y **toda la información relevan
 **⚖️ Profesionales del derecho:** Documentos con matrícula vigente
 **👨‍👩‍👧‍👦 Padres:** Autorizaciones con vínculo familiar verificado
 **🎓 Graduados:** Documentos con título y casa de estudios
-
----
 
 **No es solo una firma. Es tu historia convertida en prueba digital.**

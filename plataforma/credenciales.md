@@ -5,7 +5,6 @@
 
 *2 minutos que muestran por qué cambiar tu forma de manejar credenciales.*
 
----
 
 ## ¿Qué Puedes Hacer?
 
@@ -21,15 +20,11 @@ Emite credenciales y mantén registro completo del estado de cada una. Sabes qui
 ### 🔍 **Verifica Sin Intermediarios**
 Cualquiera puede verificar las credenciales instantáneamente. **No necesitan llamarte ni preguntarte nada.**
 
----
-
 ## Para Quién Es Esto
 
 **🎓 Universidades:** Diplomas verificables al instante
 **🏢 Empresas:** Certificados laborales que no se pueden falsificar  
 **🔧 Certificadores:** Competencias profesionales rastreables
-
----
 
 ## Por Qué Funciona
 
@@ -38,7 +33,6 @@ Cualquiera puede verificar las credenciales instantáneamente. **No necesitan ll
 **Seguridad total:** Imposible de hackear, falsificar o perder
 **Control total:** Tú decides quién puede verificar qué
 
----
 
 ## El Cambio Real
 
@@ -55,5 +49,4 @@ Cualquiera puede verificar las credenciales instantáneamente. **No necesitan ll
 **Resultado:** Más tiempo para lo que importa, menos tiempo verificando papeles.
 
 ---
-
 *La plataforma que convierte cualquier credencial en prueba digital inquebrantable.*

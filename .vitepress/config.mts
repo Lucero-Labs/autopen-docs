@@ -85,9 +85,68 @@ export default defineConfig({
       description: 'W3C verifiable credentials platform for secure digital signing',
       themeConfig: {
         nav: [
+          { text: 'Home', link: '/en/' },
+          {
+            text: 'Learn',
+            items: [
+              { text: 'What are Digital Signatures', link: '/en/aprende/firmas-digitales' },
+              { text: 'History of Signing', link: '/en/aprende/historia' },
+              { text: 'W3C Standards', link: '/en/aprende/w3c-estandares' }
+            ]
+          },
+          {
+            text: 'Platform',
+            items: [
+              { text: 'Credentials', link: '/en/plataforma/credenciales' },
+              { text: 'Signer', link: '/en/plataforma/firmador' },
+              { text: 'Verifier', link: '/en/plataforma/verificar' }
+            ]
+          },
+          {
+            text: 'Use Cases',
+            items: [
+              { text: 'Professional Associations', link: '/en/casos-uso/colegios' },
+              { text: 'Educational Institutions', link: '/en/casos-uso/educacion' },
+            ]
+          },
+          {
+            text: 'Devs',
+            items: [
+              { text: 'Getting Started Guide', link: '/en/devs/inicio' },
+              { text: 'API Reference', link: '/en/devs/api' }
+            ]
+          }
         ],
         sidebar: [
           {
+            text: 'Learn',
+            items: [
+              { text: 'What are Digital Signatures', link: '/en/aprende/firmas-digitales' },
+              { text: 'History of Signing', link: '/en/aprende/historia' },
+              { text: 'W3C Standards', link: '/en/aprende/w3c-estandares' }
+            ]
+          },
+          {
+            text: 'Platform',
+            items: [
+              { text: 'Credentials', link: '/en/plataforma/credenciales' },
+              { text: 'Signer', link: '/en/plataforma/firmador' },
+              { text: 'Verifier', link: '/en/plataforma/verificar' }
+            ]
+          },
+          {
+            text: 'Use Cases',
+            items: [
+              { text: 'Professional Associations', link: '/en/casos-uso/colegios' },
+              { text: 'Educational Institutions', link: '/en/casos-uso/educacion' },
+            ]
+          },
+          {
+            text: 'Devs',
+            items: [
+              { text: 'Getting Started Guide', link: '/en/devs/inicio' },
+              { text: 'API Reference', link: '/en/devs/api' }
+            ]
           }
         ]
       }
