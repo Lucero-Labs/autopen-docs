@@ -4,6 +4,8 @@
 
 This API enables the creation and management of verifiable presentation requests for credential verification workflows.
 
+[Postman collection](https://www.postman.com/bold-meteor-943453/workspace/autopen-admin-api/collection/32694298-d373e9a7-9e55-438b-bd72-41ab245ac480?action=share&source=copy-link&creator=32694298)
+
 ## Getting Started
 
 ### Base URL

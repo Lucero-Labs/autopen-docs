@@ -4,6 +4,8 @@
 
 Esta API permite la creación y gestión de solicitudes de presentación verificable para flujos de trabajo de verificación de credenciales.
 
+[Postman collection](https://www.postman.com/bold-meteor-943453/workspace/autopen-admin-api/collection/32694298-d373e9a7-9e55-438b-bd72-41ab245ac480?action=share&source=copy-link&creator=32694298)
+
 ## Primeros Pasos
 
 ### URL Base
