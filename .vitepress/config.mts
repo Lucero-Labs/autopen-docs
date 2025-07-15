@@ -42,7 +42,8 @@ export default defineConfig({
           { 
             text: 'Devs', 
             items: [
-              { text: 'API Reference', link: '/devs/api' }
+              { text: 'Admin API', link: '/devs/api' },
+              { text: 'Agent API', link: '/devs/agente-api' }
             ]
           }
         ],
@@ -73,7 +74,8 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'API Reference', link: '/devs/api' }
+              { text: 'Admin API', link: '/devs/api' },
+              { text: 'Agente API', link: '/devs/agente-api' }
             ]
           }
         ]
@@ -113,7 +115,8 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'API Reference', link: '/en/devs/api' }
+              { text: 'Admin API', link: '/en/devs/api' },
+              { text: 'Agent API', link: '/en/devs/agent-api' }
             ]
           }
         ],
@@ -144,7 +147,8 @@ export default defineConfig({
           {
             text: 'Devs',
             items: [
-              { text: 'API Reference', link: '/en/devs/api' }
+              { text: 'Admin API', link: '/en/devs/api' },
+              { text: 'Agent API', link: '/en/devs/agent-api' }
             ]
           }
         ]
