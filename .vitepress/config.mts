@@ -43,7 +43,8 @@ export default defineConfig({
             text: 'Devs', 
             items: [
               { text: 'Admin API', link: '/devs/api' },
-              { text: 'Agent API', link: '/devs/agente-api' }
+              { text: 'Agent API', link: '/devs/agente-api' },
+              { text: 'Hiring', link: '/devs/hiring' }
             ]
           }
         ],
@@ -75,7 +76,8 @@ export default defineConfig({
             text: 'Devs',
             items: [
               { text: 'Admin API', link: '/devs/api' },
-              { text: 'Agente API', link: '/devs/agente-api' }
+              { text: 'Agente API', link: '/devs/agente-api' },
+              { text: 'Hiring', link: '/devs/hiring' }
             ]
           }
         ]
@@ -116,7 +118,8 @@ export default defineConfig({
             text: 'Devs',
             items: [
               { text: 'Admin API', link: '/en/devs/api' },
-              { text: 'Agent API', link: '/en/devs/agent-api' }
+              { text: 'Agent API', link: '/en/devs/agent-api' },
+              { text: 'Hiring', link: '/en/devs/hiring' }
             ]
           }
         ],
@@ -148,7 +151,8 @@ export default defineConfig({
             text: 'Devs',
             items: [
               { text: 'Admin API', link: '/en/devs/api' },
-              { text: 'Agent API', link: '/en/devs/agent-api' }
+              { text: 'Agent API', link: '/en/devs/agent-api' },
+              { text: 'Hiring', link: '/en/devs/hiring' }
             ]
           }
         ]
