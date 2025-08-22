@@ -25,7 +25,7 @@ Sabés quién está usando su credencial, dónde, cuándo, y para qué. **Sin qu
 - Constructora llama: "¿Juan Pérez está habilitado?"
 - Empleado busca en el sistema
 - Confirma matrícula, especialidad, vigencia
-- **3 llamadas por día, por arquitecto**
+- **O peor aún, nada se verifica y abre las puertas al fraude e impersonación.**
 
 ### **Ahora:**
 - Arquitecto firma planos con credencial verificable
@@ -34,9 +34,8 @@ Sabés quién está usando su credencial, dónde, cuándo, y para qué. **Sin qu
 - **Cero llamadas**
 
 ### **El Resultado:**
-- **70% menos consultas telefónicas**
 - **Verificación instantánea 24/7**
-- **Cero ejercicio ilegal no detectado**
+- **Trasparencia, Confinza y Seguridad**
 
 ## Qué Podés Hacer
 

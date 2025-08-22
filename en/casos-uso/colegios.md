@@ -34,7 +34,6 @@ You know who is using their credential, where, when, and for what. **Without the
 - **Zero calls**
 
 ### **The Result:**
-- **70% fewer phone inquiries**
 - **Instant 24/7 verification**
 - **Zero undetected illegal practice**
 
