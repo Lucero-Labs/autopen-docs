@@ -63,6 +63,3 @@ You know who is using their credential, where, when, and for what. **Without the
 Your professionals carry their credibility with them. Anyone can verify it. You maintain control.
 
 ---
-
-**No more "can you confirm that...?"**
-**Just professionals who verify themselves.**

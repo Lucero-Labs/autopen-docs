@@ -61,8 +61,3 @@ Sabés quién está usando su credencial, dónde, cuándo, y para qué. **Sin qu
 **Te convertís en el emisor de confianza digital.**
 
 Tus profesionales llevan su credibilidad encima. Cualquiera puede verificarla. Vos mantenés el control.
-
----
-
-**No más "¿podés confirmar que...?" 
-Solo profesionales que se verifican solos.**
